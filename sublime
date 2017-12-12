@@ -1,0 +1,128 @@
+plugin for python in sublime
+=============================
+1.anaconda python
+2.sublimeRepl
+3.brackets highlighter
+4.sidebar enhancement
+5.requirement txt
+6.monokai dark - theme
+
+=========================================================================================
+
+sublime settings
+================
+{
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Monokai Dark/Monokai Dark.tmTheme",
+	"draw_minimap_border": true,
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.sublime-workspace"
+	],
+	"font_size": 17,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"overlay_scroll_bars": "enabled",
+	"scroll_past_end": true,
+	"scroll_speed": 5.0,
+	"show_encoding": true,
+	"sidebar_default": true,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_simple_full_screen": true,
+	"word_wrap": true
+}
+==========================================================================================
+
+python bulid system
+===================
+{
+    "target": "run_existing_window_command",
+    "id": "repl_python_run",
+    "file": "config/Python/Main.sublime-menu"
+}
+
+===========================================================================================
+
+anaconda-python settings
+=========================
+{
+    "auto_formatting": true,
+    "autoformat_ignore":
+    [
+        "E309",
+        "E501"
+    ],
+    "pep8_ignore":
+    [
+        "E309",
+        "E501"
+    ],
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "complete_parameters": true,
+    "anaconda_gutter_theme": "hard",
+    "anaconda_linter_mark_style": "squiggly_underline"
+
+}
+
+============================================================================================
+
+change the config file of sublimeRepl
+======================================
+
+1.first find where the package has been install 
+
+to find it
+
+open Sublime-Text->Preferences->Browse Packages
+
+2.then open the sublimeRepl package
+3.then go to config->python 
+4.then open Main.sublime-menu file in the folder
+5.then find all the "cmd" which look like this 
+
+cmd": ["python", "-u", "-m", "pdb", "$file_basename"] 
+
+6.in the "cmd" change the python to the location where you have install python 
+
+Which look like this
+
+cmd": ["/usr/bin/python3.6", "-i", "-u", "-m", "pdb", "$file_basename"]
+
+7.you have to do this for all the "cmd" present in your file
+8.if "-i" is not present in you "cmd" add it to your line 
+9.save the file
+10.this will help in finding your current location and version of python that you have install
+
+
+
