@@ -1,6 +1,10 @@
+# SAKTHIVEL
 
-# VScode
+## VScode
+```
   Setting of vscode for python development
-
-# Sublime
+```
+## Sublime
+```
   Settings of sublime text for python development
+```
