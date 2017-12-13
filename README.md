@@ -1,2 +1,6 @@
-# Files 
-Settings of sublime text for python development
+
+# VScode
+  Setting of vscode for python development
+
+# Sublime
+  Settings of sublime text for python development
