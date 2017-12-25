@@ -6,5 +6,9 @@
 ```
 ## Sublime
 ```
-  Settings of sublime text for python development
+  Settings of sublime text for python developmen
+  ```
+## Fedora 
+```
+Setting of fedora after install
 ```
