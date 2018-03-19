@@ -6,6 +6,21 @@ plugin for python in VScode
 4.brackets pair color
 5.live-server
 6.monokai-midnight(theme)
+7.Angular 5 snippets
+8.Auto import
+9.Code spell checker
+10.Cordova Tools
+11.Document this
+12.ES7 React/Redux
+13.Html snippets
+14.Intellisense for css name in html
+15.Java script es6
+16.Material icons
+17.Output colourizer
+18.Path intellisense
+19.React native tools
+20.Scss intellisense
+21.TSLint
 
 ======================================================================================
 
@@ -15,28 +30,48 @@ VScode settings
 {
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Monokai-Midnight",
-    "workbench.panel.location": "right",
     "editor.fontSize": 20,
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "python.pythonPath": "/usr/bin/python3.6",
+    "python.pythonPath": "/usr/bin/python3.5",
     "python.linting.pep8Enabled": true,
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "autopep8",
-    "python.formatting.formatOnSave": true,
     "python.autoComplete.addBrackets": true,
     "python.terminal.executeInFileDir": true,
     "python.linting.pylintArgs": [
-        "--errors-only"
+        "--errors-only "
     ],
-    "terminal.integrated.fontSize": 16,
+    "python.linting.pep8Args": [
+        "--ignore=E501"
+    ],
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontSize": 20,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
-        "python": "python3"
-    }
+        "python": "python3.5"
+    },
+    "editor.formatOnPaste": true,
+    "editor.lineNumbers": "relative",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": true,
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "path-intellisense.showHiddenFiles": true,
+    "git.promptToSaveFilesBeforeCommit": true,
+    "cSpell.userWords": [
+        "ionicframework",
+        "ionicons",
+        "sakthivel"
+    ],
+    "editor.fontFamily": "'Fira Code Retina'",
+    "editor.fontLigatures": true,
+    "git.enableSmartCommit": true,
 }
-
 
