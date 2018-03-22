@@ -74,5 +74,7 @@ VScode settings
     "editor.fontFamily": "'Fira Code Retina'",
     "editor.fontLigatures": true,
     "git.enableSmartCommit": true,
+    "eslint.autoFixOnSave": true,
+    "tslint.autoFixOnSave": true,
 }
 
