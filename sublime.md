@@ -10,8 +10,9 @@
 * sublime code intel
 * sublime linter 
 * sublime linter-csslint
-* sublime linter-jslint
-* sublime linter-phplint
+* sublime linter-jshint
+* sublime linter-php
+* HTML-CSS-JS Prettify
 
 ## Keymap
 
