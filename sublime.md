@@ -12,7 +12,33 @@
 * sublime linter-csslint
 * sublime linter-jshint
 * sublime linter-php
+* sublime linter-tslint
+* sublime linter-eslint
+* sublime linter-phplint
 * HTML-CSS-JS Prettify
+
+## Global declaration
+
+**css**
+```
+npm install -g csslint
+```
+**es**
+```
+npm install -g eslint
+```
+**ts**
+```
+npm install -g tslint
+```
+**js**
+```
+npm install -g jshint
+```
+**php**
+```
+brew install homebrew/php/phplint
+```
 
 ## Keymap
 
