@@ -14,6 +14,7 @@
 * sublime linter-php
 * sublime linter-tslint
 * sublime linter-eslint
+* SublimeLinter-json
 * HTML-CSS-JS Prettify
 
 ## Global declaration
