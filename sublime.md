@@ -16,6 +16,7 @@
 * sublime linter-eslint
 * SublimeLinter-json
 * HTML-CSS-JS Prettify
+* Codeformatter (format all the web design code)
 
 ## Global declaration
 
