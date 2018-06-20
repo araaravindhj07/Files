@@ -1,0 +1,38 @@
+Removing the Program Registry
+
+WARNING: Editing the Windows Registry is NOT recommended for those unfamiliar with registry editing. Be sure to back-up the
+
+registry prior to making any changes.
+
+1. To back-up registry, go to REGEDIT | File | Export
+
+    a. For Windows Vista or Windows 7: Click Start | All Programs | Accessories | Run | type Regedit and click OK.
+    b. For Windows XP: Click Start | Run | type Regedit and click OK.
+
+2. Remove CorelDRAW Graphics Suite X6 registry keys from the Windows Registry.
+
+    a. For Windows Vista or Windows 7: Click Start | All Programs | Accessories | Run | type Regedit and click OK.
+    b. For Windows XP: Click Start | Run | type Regedit and click OK.
+    c. Delete the following keys
+
+HKEY_LOCAL_MACHINE\SOFTWARE\COREL\CorelDRAW\16.0
+
+HKEY_LOCAL_MACHINE\Software\Corel\Setup\CorelDRAW Graphics Suite 16
+
+HKEY_LOCAL_MACHINE\Software\Corel\PCU\Licenses\807001
+
+HKEY_CURRENT_USER\Software\Corel\CorelDRAW\16.0
+
+
+For Windows XP/Vista 64 Bit or Windows 7 :
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\COREL\CorelDRAW\16.0
+
+HKEY_LOCAL_MACHINE\Software\Wow6432Node\Corel\Setup\CorelDRAW Graphics Suite 16
+
+HKEY_LOCAL_MACHINE\Software\Wow6432Node\Corel\PCU\807001
+
+HKEY_CURRENT_USER\Software\Corel\CorelDRAW\16.0
+
+
+Note: Make sure you restart the system for changes to take effect.
